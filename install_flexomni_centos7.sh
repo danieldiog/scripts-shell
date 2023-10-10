@@ -1,16 +1,3 @@
-#!/bin/bash
-
-read -p "Qual o usuário do GIT? " USUARIO_GIT
-read -s -p "Qual a senha do GIT? " SENHA_GIT
-echo " "
-read -p "Qual a porta HTTPS? " PORTA_ACESSO_HTTPS
-read -p "Qual o DNS para o CHAT? " DNS_CHAT
-PORTA_ACESSO_HTTP=80
-
-#INICIO DA INSTALACAO DO FLEXUC OMNICHANNEL
-
-mkdir /opt/workspace;cd /opt/workspace
-
 #CRIANDO ARQUIVO DE LOG FLEXUC
 if [ -e /var/log/log_script_flexomni ]
 then
