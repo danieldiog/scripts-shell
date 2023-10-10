@@ -742,7 +742,3 @@ systemctl restart nginx
 systemctl restart kong
 cd /opt/workspace/kong-flexuc-4
 deck sync
-
-echo "------------------------------INSTALAÇÃO DO FLEX OMNI FINALIZADA------------------------------" | tee -a $LOGFILE2
-
-rm -rf install_flexomni_centos7.sh
